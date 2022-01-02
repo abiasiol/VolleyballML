@@ -11,7 +11,8 @@ The goal of the project is to take more **data-driven decisions**, find non-triv
 
 The project ***currently*** includes:
 - 01_hypothesis_testing: Intro to the dataset and presentation of different solutions for **hypothesis testing**
-- 02_linear_regression: With a goal of **interpretation**, use linear regression model to evaluate which factors are most important in determining the side-out performance
+- 02_linear_regression: With a goal of **interpretation**, use **linear regression models** to evaluate which factors are most important in determining the side-out performance
+- 04_clustering_unsupervised: **Clustering** of outside-hitters based on performance
 
 ## Volleyball sideout dataset
 What is a sideout?
