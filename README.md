@@ -36,6 +36,20 @@ See the results here: https://www.volleydataverse.com/advanced-analysis/linear-r
 - This work was developed with *Python* in a *Jupyter Notebook*, using Pandas and **scikit-learn**, with *Plotly* and Seaborn as visualization libraries
   <img src="images/summary_lr.png" width="800"/>
 
+## 03 Classification
+See the results here: https://www.volleydataverse.com/advanced-analysis/classification-ml
+- Several **machine learning classification algorithms were used to predict setter Asia Wolosz (Imoco Conegliano) choices in side-out** based on the available information. The models target **prediction**, however, they will also learn for us which factors are the most important in driving her decisions
+- The data-set consists of data from the 2019/2020 season of Imoco Conegliano kindly provided by César Hernández González
+- The work includes a **data exploration** section with a **correlation analysis**, and it uses **descriptive statistics** and visualization techniques. A data engineering and **data preparation using a pipeline** follows, in preparation for the classification models
+- Results from several **classifier models (XGBoost, Random Forest, HistGradientBoosting, SVC, ExtraTrees, GradientBoosting, Logistic Regression, ADABoost, DecisionTree, K-Neighbors)** are compared. The **tuning procedure, both manual and using Hyperopt**, is described
+- **Model interpretation with Shapley values (using the SHAP library)** is provided 
+- In the context of the 2021 Summer Season, data from the 2020 Tokyo Olympics and 2021 Volleyball Nations League was used in linear regression machine learning models to evaluate the *importance of different features on team's attack quality*. The models are hence more targeted to ***interpretation*** of the observed data rather than prediction
+- The work includes a *data exploration* section, that uses both *descriptive statistics* and *visualization* techniques, with a **correlation analysis**
+- It follows a **data engineering** and **data preparation using a pipeline** for the **machine learning** linear regression models
+- Results from linear regression models (**linear regression**, **Ridge** regression, **Lasso** regression, **ElasticNet** regression) are compared, including *polynomial features* 
+- This work was developed with *Python* in a *Jupyter Notebook*, using Pandas and **scikit-learn**, with *Plotly* and Seaborn as visualization libraries
+  <img src="images/summary_classification.jpg" width="800"/>
+
 ## 04 Clustering (unsupervised)
 See the results here: https://www.volleydataverse.com/advanced-analysis/clustering-ml
 - In the context of the 2021 Summer Season, data from the 2020 Tokyo Olympics and 2021 Volleyball Nations League was used with several clustering algorithms to **group outside hitters based on their attack, reception, and serve performances**
